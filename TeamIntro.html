@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Team Introduction</title>
+    <meta charset="UTF-8">
+    <title>Team Intro Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f4; }
+        h1 { color: #333; }
+        .member { 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            margin: 20px; 
+            background: #fff; 
+            display: inline-block; 
+            width: 250px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+        img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
+    </style>
 </head>
 <body>
+    <h1>Welcome to Our Team!</h1>
 
-    <h1>Welcome to Our Team</h1>
-
-    <h2>Team Members</h2>
-
-    <div>
-        <h3>Varshitha</h3>
-        <img src="photo.jpg" alt="Varshitha" width="150">
-        <p><b>Department:</b> Computer Science Engineering</p>
+    <div class="member">
+        <img src="images/samantha.jpg" alt="Samantha Ruth Prabhu">
+        <h2>Alice Johnson</h2>
+        <p>Department: Product Development</p>
     </div>
 
-    <div>
-        <h3>Mahitha</h3>
-        <img src="photo2.jpg" alt="Mahitha" width="150">
-        <p><b>Department:</b> Software Development</p>
+    <div class="member">
+        <img src="images/mahesh.jpg" alt="Mahesh Babu">
+        <h2>Bob Smith</h2>
+        <p>Department: Marketing</p>
     </div>
 
+    <div class="member">
+        <img src="images/rashmika.jpg" alt="Rashmika Mandanna">
+        <h2>Charlie Lee</h2>
+        <p>Department: Internship - Software</p>
+    </div>
+
+    <div class="member">
+        <img src="images/allu.jpg" alt="Allu Arjun">
+        <h2>David Kumar</h2>
+        <p>Department: Design</p>
+    </div>
 </body>
 </html>
